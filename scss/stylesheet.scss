@@ -17,3 +17,17 @@ h1 {
   transform: translateX(300px);
   background: #ff0000;
 }
+
+.btn-animation {
+  animation: 2s ease 0s 1 normal none running rotation;
+}
+
+@keyframes rotation {
+  0% {
+    transform: scale(.3);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

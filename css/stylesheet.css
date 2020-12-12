@@ -20,4 +20,31 @@ h1 {
           transform: translateX(300px);
   background: #ff0000;
 }
+
+.btn-animation {
+  -webkit-animation: 2s ease 0s 1 normal none running rotation;
+          animation: 2s ease 0s 1 normal none running rotation;
+}
+
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: scale(0.3);
+            transform: scale(0.3);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    -webkit-transform: scale(0.3);
+            transform: scale(0.3);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
 /*# sourceMappingURL=stylesheet.css.map */
